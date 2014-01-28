@@ -2,7 +2,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: wdi_development
+  database: ruby_quest
   pool: 5
   username: MTen
   password:
@@ -10,7 +10,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: wdi_test
+  database: ruby_quest
   pool: 5
   username: MTen
   password:
@@ -18,7 +18,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: wdi_production
+  database: ruby_quest
   pool: 5
   username: MTen
   password:
